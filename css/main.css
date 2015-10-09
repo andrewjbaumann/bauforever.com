@@ -1,0 +1,28 @@
+body{
+background-image:
+    linear-gradient(to bottom right,
+      rgba(174,221,252, 0.45), 
+      rgba(62,140,189, 0.45)
+    ),
+url('../images/back.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-color: 
+}
+
+.round-corners-complete {
+    border-radius: 25px;
+    padding: 20px; 
+	float: middle;
+	display:flex;
+}
+.round-corners-right {
+    border-radius: 15px 50px 30px 5px;
+    padding: 20px; 
+}
+
+div.center{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}

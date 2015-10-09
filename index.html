@@ -1,99 +1,51 @@
 <!doctype html>
-<html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang='en'>
+<meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=0'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta charset='utf-8'> 
 <head>
-<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<!-- META ===================================================== --> 
-    <title>Business As Usual</title> 
-    <meta name="description" content="Andrew Baumann's Website"> 
-    <!--<meta name="keywords" content="ADD KEYWORDS HERE"> 
-
-<!-- Favicon  ========================================== --> 
-	<!-- Standard iPhone --> 
-	<link rel="apple-touch-icon" sizes="57x57" href="touch-icon-iphone-114.png" />
-	<!-- Retina iPhone --> 
-	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-114.png" />
-	<!-- Standard iPad --> 
-	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-144.png" />
-	<!-- Retina iPad --> 
-	<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-144.png" />
-
-	<link rel="icon" href="favicon.ico">
-
-<!-- CSS ====================================================== --> 
-	<link rel="stylesheet" href="css/stylesheet.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-
+	<!--META--> 
+		<title>Business As Usual</title> 
+		<meta name='description' content="Andrew Baumann's Website"> 
+	<!-- JS -->
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+		<script type='text/javascript' src='js/main.js'></script>
+	<!-- CSS  --> 
+		<link rel='stylesheet' href='css/main.css'>
+		<link rel='stylesheet' href='css/navbar.css'>
 </head>
 <body>
-    
-	<nav class="main-nav">
-    <ul>
-        <li><a href="">Home</a>
-        </li>
-        <li><a href="#">About Me</a>
-        </li>
-        <li><a href="#">Contact Me</a>
-        </li>
-      <!--  <li><a href="#">Level One D</a>
-            <ul>
-                <li><a href="#">Level Two A</a></li>
-                <li><a href="#">Level Two B</a></li>
-                <li><a href="#">Level Two C</a>
-                    <ul>
-                        <li><a href="#">Level Three A</a></li>
-                        <li><a href="#">Level Three B</a></li>
-                        <li><a href="#">Level Three C</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li> -->
-    </ul>
-</nav>
-
-<div class="content">
-    <h1>Andrew Joseph Baumann</h1>
-<!--     
-    I built this tool for my own front-end development projects. My goal was to include everything I need, and strip out anything I don't. This provides a lightweight starting point for web development. <br>
-    <i>- <a href="http://www.kthornbloom.com" target="_blank">Kevin Thornbloom</a></i> -->
-    <hr>
-
-    <h2>Examples of responsive elements</h2>
-    <hr>
-    <h3>Page Images</h3>
-    <img src="images/test.jpg" class="float-left"/>
-    I personally use classes of ".float-right" and ".float-left" for my page images. These will be placed as they're named, but will resize down smaller if needed.
-    <div class="clear"></div>
-   
-<!--     <hr>
-    <h3>Sample Social Media Icons</h3>
-    <div class="soc">
-        <a href="#"><i class="fa fa-facebook soc-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter soc-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin soc-linkedin"></i></a>
-        <a href="#"><i class="fa fa-tumblr soc-tumblr"></i></a>
-        <a href="#"><i class="fa fa-instagram soc-instagram"></i></a>
-        <a href="#"><i class="fa fa-google-plus soc-google-plus"></i></a>
-        <a href="#"><i class="fa fa-pinterest soc-pinterest"></i></a>
-        <a href="#"><i class="fa fa-youtube soc-youtube"></i></a>        
-        <a href="#"><i class="fa fa-flickr soc-flickr"></i></a>
-    </div>
-    <div class="clear"></div>
-</div> -->
-
-<!-- JS ======================================================= --> 
-<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/corefunctions.js"></script>
-<script type="text/javascript" src="js/jquery.velocity.min.js"></script>
-<!-- add media queries for IE 8 -->
-<!--[if lte IE 8]>
-<script type="text/javascript" src="js/respond.min.js"></script>
-<![endif]-->
+<!-- NAV BAR -->
+	
+    <div id='cssmenu' class='center'>
+		<ul>
+		   <li><a href='#top'><span>HOME</span></a></li>
+		   <li><a href='#hobbies'><span>HOBBIES</span></a></li>
+		   <li><a href='#resumes'><span>RESUMES</span></a></li>
+		   <li class='last'><a href='#contact'><span>CONTACT</span></a></li>
+		</ul>
+	</div>
+<!-- MAIN WEBSITE (TOP) -->
+	<div class='center'>
+		<a name='top'><h1>Yo</h1></a>
+	</div>
+	
+	<div class='center'>
+		<img src='images/test.jpg' class='round-corners-complete'alt='Mountain View'>
+	</div>
+	
+	<div class='center'>
+		<h2><a name='hobbies'>My Hobbies, Yo</a></h2>
+	</div>
+	
+	<div class='center'>
+		<h2><a name='resumes'>My Resumes, Yo</a></h2>
+	</div>
+	
+	<div class='center'>
+		<h2><a name='contact'>My Contact Information, Yo</a></h2>
+	</div>
+	
 </body>
+
 </html>
