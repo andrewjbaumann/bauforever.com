@@ -7,8 +7,14 @@ body{
 	url('../images/back.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* background-color:  */
+	background-color: rgba(62,140,189, 0.45);
 }
+
+.center-wrap { 
+	width: 1000px; 
+	margin: 0 auto;
+	max-width: 600px;
+} 
 
 h1,h2,h3,h4{
     font-family: 'Roboto';
@@ -17,7 +23,6 @@ h1,h2,h3,h4{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	
 }
 
 p{
@@ -28,7 +33,11 @@ p{
 	align-items:center;
 }
 
-
+.centered-images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .round-corners-complete {
     border-radius: 25px;
     padding: 20px; 
@@ -37,7 +46,3 @@ p{
     border-radius: 15px 50px 30px 5px;
     padding: 20px; 
 }
-
-.center-wrap { 
- width: 1000px; margin: 0 auto; 
-} 

@@ -1,0 +1,22 @@
+body{
+	background-image:
+		linear-gradient(to bottom right,
+		  rgba(174,221,252, 0.45), 
+		  rgba(62,140,189, 0.45)
+		),
+	url('../images/back.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #191970;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+}
+
+p{
+	font-family: 'Open Sans';
+	font-style: normal;
+}
