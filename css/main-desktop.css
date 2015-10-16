@@ -14,6 +14,7 @@ body{
 	width: 1000px; 
 	margin: 0 auto;
 	max-width: 600px;
+	text-align:center;
 } 
 
 h1,h2,h3,h4{
@@ -45,4 +46,12 @@ p{
 .round-corners-right {
     border-radius: 15px 50px 30px 5px;
     padding: 20px; 
+}
+
+.social{
+	max-height:2em;
+	max-width:2em;
+	display: inline-block;
+	margin: auto;
+	padding: 5px;
 }

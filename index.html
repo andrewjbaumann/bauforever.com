@@ -32,6 +32,8 @@
 	<!--META--> 
 		<title>Business As Usual</title> 
 		<meta name='description' content="Andrew Baumann's Website"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="footer, basic, centered, links" />
 	<!-- JS -->
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
 		<script type='text/javascript' src='js/main.js'></script>
@@ -41,15 +43,16 @@
 		<link rel='stylesheet' media='screen and (min-width: 600px)' href='css/main-desktop.css'>
 		<link rel='stylesheet' media='screen and (max-width: 599px)' href='css/main-mobile.css'>
 		<link rel='stylesheet' href='css/navbar.css'>
+		<link rel="stylesheet" href="css/footer-distributed.css">
 </head>
 <body>
 <!-- NAV BAR -->
 	<div id='cssmenu' class='center align-center'>
 		<ul>
 		   <li><a href='#top'><span>HOME</span></a></li>
+		   <li><a href='#about'><span>ABOUT</span></a></li>
 		   <li><a href='#hobbies'><span>HOBBIES</span></a></li>
 		   <li><a href='#resumes'><span>RESUMES</span></a></li>
-		   <li><a href='#about'><span>ABOUT</span></a></li>
 		   <li class='last'><a href='#contact'><span>CONTACT</span></a></li>
 		</ul>
 	</div>
@@ -59,6 +62,10 @@
 			<h1><a name='top'>andrew baumann's cool kids club</a></h1>
 		
 			<img src='images/test.jpg' class='round-corners-complete centered-images'alt='Mountain View'>
+		</div>
+		<div>
+			<h2><a name='about'>about me</a></h2>
+			<p>I was born on a foggy day in August.</p>
 		</div>
 		<div>
 			<h2><a name='hobbies'>hobbies</a></h2>
@@ -71,14 +78,50 @@
 			<p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
 		</div>
 		<div>
-			<h2><a name='about'>about me</a></h2>
-			<p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
-		</div>
-		<div>
 			<h2><a name='contact'>contact</a></h2>
 			<p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
+			<img src='images/sm/fb.png' class='social'alt='facebook'>
+			<img src='images/sm/tw.png' class='social'alt='twitter'>
+			<img src='images/sm/in.png' class='social'alt='linkedin'>
+			<img src='images/sm/git.png' class='social'alt='github'>
+			<img src='images/sm/skype.png' class='social'alt='skype'>
+			<img src='images/sm/fm.png' class='social'alt='lastfm'>
+			<img src='images/sm/mail.png' class='social'alt='email'>			
 		</div>
 	</div>
+	
+	<footer class="footer-distributed">
+
+		<div class="footer-right">
+
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-github"></i></a>
+
+		</div>
+
+		<div class="footer-left">
+
+			<p class="footer-links">
+				<a href="#">Home</a>
+				·
+				<a href="#">Blog</a>
+				·
+				<a href="#">Pricing</a>
+				·
+				<a href="#">About</a>
+				·
+				<a href="#">Faq</a>
+				·
+				<a href="#">Contact</a>
+			</p>
+
+			<p>Company Name &copy; 2015</p>
+		</div>
+
+	</footer>
+
 </body>
 
 </html>
